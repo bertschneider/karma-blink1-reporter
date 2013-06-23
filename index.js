@@ -37,8 +37,8 @@ var Blink1Reporter = function (helper, logger, config) {
         duration: 1.5
     };
 
-    var config = helper.merge(config, DEFAULT_CONFIG),
-        log = logger.create('reporter.blink1');
+    var config = helper.merge(config, DEFAULT_CONFIG);
+    var log = logger.create('reporter.blink1');
 
     this.onRunStart = function () {
         request(baseUrl + 'enumerate', function (statusCode, result) {
