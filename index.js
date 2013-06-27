@@ -41,7 +41,7 @@ var Blink1Reporter = function (helper, logger, config) {
     var log = logger.create('reporter.blink1');
 
     this.onRunStart = function () {
-        request(baseUrl + 'enumerate', function (statusCode, result) {
+        request(config.baseUrl + 'enumerate', function (statusCode, result) {
             if (result.blink1Id) {
                 log.info('blink1 found (ID:' + result.blink1Id + ')');
             } else {
