@@ -1,6 +1,6 @@
 {
-  "name": "karma-blink-reporter",
-  "version": "0.0.1",
+  "name": "karma-blink1-reporter",
+  "version": "0.1.1",
   "description": "A Karma plugin that reports test results with a blink(1) device.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bertschneider/karma-blink-reporter.git"
+    "url": "git://github.com/bertschneider/karma-blink1-reporter.git"
   },
   "keywords": [
     "karma-plugin",
