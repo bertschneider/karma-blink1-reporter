@@ -12,15 +12,12 @@ Only works with **Karma 0.9 or later** which enables custom plugins.
 
 2. Install [karma-blink1-reporter][2]
 
-```bash
-  $ npm install -g karma-blink1-reporter
-```
+    $ npm install -g karma-blink1-reporter
 
-3. Add the plugin too reporters
 
-```js
-  reporters = ['blink1'];
-```
+3. Add the plugin to reporters
+
+    reporters = ['blink1'];
 
 4. Start the blink(1) software
 
