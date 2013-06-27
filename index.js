@@ -37,7 +37,7 @@ var Blink1Reporter = function (helper, logger, config) {
         duration: 1.5
     };
 
-    var config = helper.merge(config, DEFAULT_CONFIG);
+    var config = helper.merge(DEFAULT_CONFIG, config);
     var log = logger.create('reporter.blink1');
 
     this.onRunStart = function () {
