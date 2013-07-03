@@ -40,7 +40,7 @@ Some properties of the plugin can be changes in the Karma config file by adding 
 
 ## License
 
-karma-blink-reporter is licensed under the [MIT License][3].
+karma-blink1-reporter is licensed under the [MIT License][3].
 
   [0]: http://karma-runner.github.com
   [1]: http://thingm.com/products/blink-1.html
