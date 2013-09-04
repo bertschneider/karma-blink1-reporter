@@ -1,6 +1,6 @@
 # karma-blink1-reporter
 
-karma-blink1-reporter uses a [blink(1)][1] device to display [Karam][0] test results.
+karma-blink1-reporter uses a [blink(1)][1] device to display [Karma][0] test results.
 
 Only works with **Karma 0.9 or later** which enables custom plugins.
 
